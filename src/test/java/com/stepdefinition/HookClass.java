@@ -12,7 +12,7 @@ public class HookClass extends LibGlobel {
 
 	@Before
 	public void berofeScenario() throws MalformedURLException {
-		getDriverCloud();
+		getDriver();
 		loadUrl("http://adactinhotelapp.com/");
 	}
 

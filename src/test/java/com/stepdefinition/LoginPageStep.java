@@ -26,7 +26,7 @@ public class LoginPageStep extends LibGlobel {
 
 	@Given("User should entert adactin details")
 	public void userShouldEntertAdactinDetails() throws MalformedURLException {
-		getDriverCloud();
+		getDriver();
 		loadUrl("http://adactinhotelapp.com/");
 		driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
 	}
